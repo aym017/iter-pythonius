@@ -1,0 +1,5 @@
+print('Welcome to the calculator')
+val_1 = float(input("Enter your first number: "))
+val_2 = float(input("Enter your second number: "))
+answer = (val_1 + val_2)
+print("Your answer is " + str(answer))
