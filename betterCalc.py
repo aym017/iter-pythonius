@@ -14,7 +14,9 @@ elif operator == '*':
 elif operator == '/':
     if num2 != 0:
         print("Result is " + str(num1 / num2))
-    else:
+    elif num2 == 0:
         print("Error- division by zero")
+else:
+    print("Invalid operator")
 
 
